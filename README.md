@@ -19,3 +19,7 @@ This data was initially published on https://datahack.analyticsvidhya.com by Int
 - Below are some of the results the model predicted from the jupyter notebook:
 
 ![](Images/predictions.PNG)
+
+- From the image above, we can see that the model predicts decently well.
+- However, the model has some trouble differentiating between **streets** and **buildings**, this is due to the fact that in some of the photos (training data) the streets have buildings in them
+- As a result, the model does not correctly predict streets and buildings sometimes. 
